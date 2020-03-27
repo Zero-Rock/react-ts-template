@@ -11,4 +11,4 @@ gen
 node_modules
 .vscodde
 dist
-!/package-lock.json
+package-lock.json
