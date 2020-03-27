@@ -39,8 +39,6 @@ const Model: ModelType<DemoState, Effects, Reducers> = {
   },
   effects: {
     * setAvatar( { payload }, effect ) {
-      console.log(effect)
-      console.log(payload, Date.now())
       yield effect.put( {
         type: 'setAvatar11',
         payload: {
