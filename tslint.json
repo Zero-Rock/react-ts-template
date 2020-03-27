@@ -1,0 +1,36 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-eslint-rules"
+    ],
+    "jsRules": {},
+    "rules": {
+        "arrow-parens": [true],
+        "curly": true,
+        "comment-format": [true, "check-space"],
+        "default-imported":[false],
+        "eofline": true,
+        "import-blacklist":[true],
+        "indent": [true, "spaces", 2],
+        "max-classes-per-file": [true, 1],
+        "max-line-length": [true, 140],
+        "no-arg": [true],
+        "no-conditional-assignment": [true],
+        "no-console": [true],
+        "no-debugger": [true],
+        "no-eval": [0],
+        "no-magic-numbers": [true, -1, 0, 1, 2],
+        "no-return-await": [true],
+        "no-string-literal": [true],
+        "no-var-keyword": [true],
+        "no-var-requires": [false],
+        "object-curly-spacing": [true],
+        "quotemark": [true, "single", "jsx-double"],
+        "radix": [true],
+        "semicolon": [true, "always"],
+        "jsx-no-multiline-js": [false]
+    },
+    "rulesDirectory": []
+}

@@ -1,0 +1,55 @@
+// Created by 枯荣<panjiankang@cai-inc.com> on 2020/03/06 3:08 下午.
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 100%;
+
+}
+
+#app {
+
+}
+
+.site_logo {
+	width: 100%;
+	height: 60px;
+}
+
+.site_layout {
+	height: 100%;
+	width: 100%;
+	padding-bottom: 20px;
+
+	&_side {
+		position: fixed;
+		overflow: auto;
+		left: 0;
+		top: 0;
+		bottom: 0;
+
+	}
+
+	&_background {
+		background-color: #fff;
+
+		&.ant-layout-header {
+			margin-left: 220px;
+			height: 60px;
+			padding: 0 10px;
+			position: fixed;
+			z-index: 1001;
+			width: 100%;
+			transition: all 0.2s;
+		}
+
+		&.ant-layout-content {
+			margin-top: 80px;
+			transition: all 0.2s;
+			margin-right: 20px;
+			background-color: #f0f2f5;
+		}
+	}
+}

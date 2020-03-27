@@ -1,0 +1,20 @@
+/**
+ * Created by 枯荣<panjiankang@cai-inc.com> on 2020/03/05 8:53 下午.
+ */
+interface Params {
+  [key: string]: any;
+}
+
+export function getQueryParams(qs: string): Params {
+  const params: Params = {};
+  const re: RegExp = /[?&]?([^=]+)=([^&]*)/g;
+  let tokens;
+  if (qs) {
+    qs = qs.split('+').join(' ');
+    tokens = re.exec(qs);
+    while (tokens) {
+      params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+    }
+  }
+  return params;
+}
