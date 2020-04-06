@@ -1,5 +1,5 @@
 /**
- * Created by 枯荣<panjiankang@cai-inc.com> on 2020/03/06 5:37 下午.
+ * Created by 含光<mobius_pan@yeah.net> on 2020/03/06 5:37 下午.
  */
 import { AnyAction, Dispatch } from 'redux';
 import { DemoState } from './demo';

@@ -1,5 +1,5 @@
 /**
- * Created by 枯荣<panjiankang@cai-inc.com> on 2020/03/05 8:53 下午.
+ * Created by 含光<mobius_pan@yeah.net> on 2020/03/05 8:53 下午.
  */
 interface Params {
   [key: string]: any;
