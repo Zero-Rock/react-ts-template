@@ -2,6 +2,7 @@ import React, { Component, ElementType } from 'react';
 import { Button } from 'antd';
 import Panel from 'src/components/panel';
 import UseStateComp from 'src/pages/hooks/components/useState';
+import UseEffectsComp from 'src/pages/hooks/components/use-effects';
 interface Comps {
   comp: ElementType;
   title: string;
@@ -17,6 +18,10 @@ const comps: Comps[] =[{
   comp: UseStateComp,
   title: 'useState',
   key: 1
+},{
+  comp: UseEffectsComp,
+  title: 'use-effects',
+  key: 2
 }];
 
 export default class Hooks extends Component<any, any>{

@@ -3,3 +3,5 @@
  */
 declare module 'dva-loading';
 declare module 'classnames';
+/// <reference path="rc-util/lib/Dom/addEventListener" />
+declare module 'rc-util/lib/Dom/addEventListener';

@@ -2,8 +2,10 @@ import React, { Component, SyntheticEvent, ReactNode } from 'react';
 import { connect } from 'dva';
 import { Button } from 'antd';
 import Panel from 'src/components/panel/index';
+import { LoadMore } from 'src/components';
 import { ConnectState, ConnectProps } from 'src/models/connect';
 import { DemoState } from 'src/models/demo';
+
 
 interface InitState {
   name: string;
@@ -58,6 +60,7 @@ export default class Demo extends Component<DemoProps & ConnectProps, any> {
           <Button onClick={this.setCount}>CLICK</Button>
           {num}
         </Panel>
+        <LoadMore loading={true} root="#app" trigger="scroll" />
       </div>
     );
   }

@@ -10,3 +10,8 @@ export enum HttpStatus {
   InternalServerError = 500,
   GatewayTimeout = 504,
 }
+
+export enum Numbers {
+  hundred = 100,
+  fiveHundred = 500
+}

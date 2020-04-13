@@ -18,3 +18,7 @@ export function getQueryParams(qs: string): Params {
   }
   return params;
 }
+
+export function isPromise(fun: PromiseLike<any>) {
+  return !!fun && (typeof fun === 'object' || typeof fun === 'function') && typeof fun.then === 'function';
+}

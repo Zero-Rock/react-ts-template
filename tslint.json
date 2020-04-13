@@ -8,6 +8,7 @@
     "jsRules": {},
     "rules": {
         "arrow-parens": [true],
+        "ban-types": [false],
         "curly": true,
         "comment-format": [true, "check-space"],
         "default-imported":[false],
@@ -15,7 +16,7 @@
         "import-blacklist":[true],
         "indent": [true, "spaces", 2],
         "max-classes-per-file": [true, 1],
-        "max-line-length": [true, 140],
+        "max-line-length": [true, 180],
         "no-arg": [true],
         "no-conditional-assignment": [true],
         "no-console": [true],
