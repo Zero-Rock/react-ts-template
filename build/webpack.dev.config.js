@@ -13,7 +13,7 @@ const webpackDevConfig = merge( webpackBaseConfig, {
   devtool: config.devtool,
   plugins: [
     new webpack.DefinePlugin( {
-      "process.env.NODE_ENV": "\"production\""
+      "process.env.NODE_ENV": "\"development\""
     } ),
     new HtmlWebpackPlugin( {
       template: utils.resolve( "src/index.html" ),
